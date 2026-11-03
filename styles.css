@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+  margin: 0;
+  padding: 48px 24px;
+  background: linear-gradient(135deg, #1e1b4b 0%, #312e81 50%, #0f172a 100%);
+  color: #f1f5f9;
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+  line-height: 1.8;
+  text-align: left;
+}
+
+h1 {
+  max-width: 800px;
+  margin: 0 auto 100vh;
+  padding-bottom: 16px;
+  border-bottom: 4px solid #f472b6;
+  font-size: 2.4rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  color: #fde68a;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 32px auto;
+  border-radius: 16px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+}
